@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-BOT_TOKEN = os.getenv("8023705430:AAGrtViOlLd51IHSEUknqEXLGb2KMNC2FaU")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 if not BOT_TOKEN:
     print("Error: TELEGRAM_BOT_TOKEN is missing.")
